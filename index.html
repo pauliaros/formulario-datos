@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validación de Datos</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body style="background-color:lightblue">
+<DIV ALIGN=center>
+<h1>Formulario de Datos</h1>
+<form action="">
+	<p>
+	Nombre <br>
+	<input type="text" name="nombre" required><br>
+	</p>
+	<p>
+	Apellido <br>
+	 <input type="text" name="apellido" required><br>
+	</p>
+	<p>
+	Número de Teléfono<br>
+	 <input type="text" name="numero de telefono" required><br>
+	</p>
+	<p>
+	Sexo <br>
+	<select name="genero" id="" required>
+		<option value="" ></option>
+		<option value="Femenino">Femenino</option>
+		<option value="Masculino">Masculino</option>
+		<option value="Indefinido">Indefinido</option>
+		</select><br>
+		</p>
+	<p>
+	Email <br>
+	 <input type="email" name="email" required><br>
+	</p>
+	<p>
+	Contraseña <br>
+	 <input type="password" name="pw" pattern=".{6,}" tittle="6 o más caracteres" required><br>
+	</p>
+	<input type="submit" value="Enviar">
+	</form>
+</DIV>
+</body>
+</html>
+
+
